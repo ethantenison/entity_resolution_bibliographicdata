@@ -242,6 +242,10 @@ Creating the unique ids with the name match
 # 5. Verify accuracy: choose a random sample and manually check the false positive and false negative rates
 ------------------------------------------------------------------------------------------------------------
 
+We manually checked the top three organizations against the provided dataset. There were no apparent cases of an organization being erroneously included in a match. There were some cases of false non-matches, such as the "University of Washinqton" (1 observation) being treated separately from the "University of Washington, Seattle" (7 observations), which is a 1/8 = 12.5% false-negative rate.
+
+We also manually checked the most prolific author, Edgard Milhaud. All of the records with his ID matched his name, and there did not appear to be any missed cases where the surname differed from Milhaud by one letter, which is a 0% false-negative rate.
+
 # 6.
 -----
 
